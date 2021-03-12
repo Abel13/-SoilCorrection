@@ -124,4 +124,13 @@ public class ControllerAnalysis {
     public double getPostCorrectionAcidity() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    public double getScmol() {
+        //=SE(R5>0,01;R5;"")
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public double getCTCcmol() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
