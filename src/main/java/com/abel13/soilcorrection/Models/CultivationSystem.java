@@ -21,7 +21,7 @@ public class CultivationSystem {
         return description;
     }
     
-    public CultivationSystem(int kind, String description, String percentage){
+    public CultivationSystem(int kind, String description){
         this.kind = kind;
         this.description = description;
     }

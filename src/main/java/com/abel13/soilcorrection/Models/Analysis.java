@@ -12,7 +12,7 @@ package com.abel13.soilcorrection.Models;
 public class Analysis {
     private TechnicalManager technicalManager;
     private CultivationSystem cultivationSystem;
-    private int sampleDepth;
+    private int sampleDepthCm;
     private int resultNumber;
     
     private double phosphor;
@@ -31,10 +31,10 @@ public class Analysis {
         return cultivationSystem.getDescription();
     }
     
-    public Analysis(TechnicalManager technicalManager, CultivationSystem cultivationSystem, int sampleDepth, int resultNumber, double phosphor, double potassium, double calcium, double magnesium, double sulfur, double aluminum, double potentialAcidity) {
+    public Analysis(TechnicalManager technicalManager, CultivationSystem cultivationSystem, int sampleDepthCm, int resultNumber, double phosphor, double potassium, double calcium, double magnesium, double sulfur, double aluminum, double potentialAcidity) {
         this.technicalManager = technicalManager;
         this.cultivationSystem = cultivationSystem;
-        this.sampleDepth = sampleDepth;
+        this.sampleDepthCm = sampleDepthCm;
         this.resultNumber = resultNumber;
         this.phosphor = phosphor;
         this.potassium = potassium;
